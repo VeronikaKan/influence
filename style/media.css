@@ -1,0 +1,148 @@
+@media(max-width:990px) {
+    .feedback__opinion {
+        display: none;
+    }
+
+    .feedback__op {
+        display: none;
+    }
+
+}
+
+@media(max-width: 945px) {
+    .container {
+        max-width: 915px;
+    }
+
+    .for-business__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .for-business__title {
+        max-width: 850px;
+    }
+
+    .for-busines__text {
+        max-width: 700px;
+    }
+
+    .for-business__point {
+        display: flex;
+        justify-content: center;
+    }
+
+    .for-business__btn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .influencer__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .influencer__content {
+        max-width: 700px;
+    }
+
+    .influencer__subtitle {
+        font-size: 70px;
+
+    }
+
+    .influencer__title {
+
+        text-align: center;
+    }
+
+    .influencer__text {
+        text-align: center;
+
+    }
+
+    .influencer__images {
+        margin-top: 20px;
+    }
+
+    .categories__btn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .statistics__wrapper {
+        max-width: 850px;
+        column-gap: 120px;
+    }
+
+    .review__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+
+    .review__card2 {
+        position: absolute;
+        top: 350px;
+        left: 0;
+    }
+
+    .contribution__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contribution__case {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .contibution__btn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .contribution__desc {
+        margin-top: 30px;
+    }
+
+    .clients__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+
+    .library__wrapper {
+        display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+    }
+
+
+    .get-started__wrapper {
+        display: block;
+
+    }
+
+    .get-started__content {
+        margin: 0 auto;
+    }
+
+    .get-started__btn {
+        display: block;
+        margin: 20px auto;
+    }
+
+
+
+.footer__wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 55px;
+}
+}
