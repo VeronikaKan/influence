@@ -33,13 +33,14 @@ button {
 
 /* header */
 .header {
+   
     background-color: rgb(255, 255, 255, 0.75);
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 10;
-    position: relative;
+   
 }
 
 .header__wrapper {
@@ -173,9 +174,9 @@ button {
 }
 
 /* main */
-
 .main__wrapper {
-    padding-top: 122px;
+    padding-top: 240px;
+    position: relative;
 }
 
 .main__background {
